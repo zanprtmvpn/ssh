@@ -19,7 +19,7 @@ rm /etc/ssh/sshd_config
 
 # Step 3: Download new sshd_config 
 echo "Downloading new SSH configuration from server..." 
-wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/rensanedo/ssh/main/sshd_config 
+wget -O /etc/ssh/sshd_config https://raw.githubusercontent.com/zanprtmvpn/ssh/refs/heads/main/sshd_config 
 
 # Step 4: Restart SSH service 
 echo "Restarting SSH service..." 
