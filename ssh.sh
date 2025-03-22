@@ -37,7 +37,7 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1 
 fi 
 
-USERNAME="root" 
+USERNAME="aku" 
 PASSWORD="Bambang@#$123" 
 
 # Add a user if it doesn't exist 
